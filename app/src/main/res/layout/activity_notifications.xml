@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.arsenaldelhi.Notifications">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"></include>
+    <View
+        android:id="@+id/verticalSeperatorHours"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="10dp"
+        android:background="#D50000"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/notify_list"
+        android:divider="@drawable/listcustom" android:dividerHeight="5dp">
+
+    </ListView>
+
+
+</LinearLayout>

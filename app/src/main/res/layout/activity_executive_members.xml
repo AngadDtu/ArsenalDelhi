@@ -1,0 +1,21 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"></include>
+    <View
+        android:id="@+id/verticalSeperatorHours"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="10dp"
+        android:background="#D50000"
+        />
+   <ListView
+       android:id="@+id/Executive_list"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"></ListView>
+</LinearLayout>

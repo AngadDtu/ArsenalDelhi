@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/join"
+    tools:context="com.example.dell.arsenaldelhi.Why_should_i_join">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"></include>
+    <View
+        android:id="@+id/verticalSeperatorHours"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="10dp"
+        android:background="#D50000"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    android:paddingTop="10dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Arsenal Delhi Membership"
+        android:textColor="#212121"
+        android:textStyle="italic"
+        android:id="@+id/textView3" />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="0.9"
+        android:paddingTop="0dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/ada"
+        android:layout_gravity="right" />
+</LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#212121"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Why Should I Join?"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#212121"
+        android:paddingTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1. No entry charge for match screenings at Chatter House(Otherwise you pay Rs 500;remable via drinks and food) "
+        android:id="@+id/textView5" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#212121"
+    android:paddingTop="7dp"
+    android:text="2. Generous discounts on food and alcohol at Chatter House(Otherwise you pay a la carte)."/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#212121"
+    android:paddingTop="7dp"
+    android:text="3. Access to match tickets at Emirates."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="7dp"
+        android:textColor="#212121"
+        android:text="4. Be a fans worldwide part of Arsenal FC outreach events to connect with fans worldwide(eg FA cups video,blogs etc)."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#212121"
+        android:paddingTop="7dp"
+        android:text="5. Select merchandise discount at puma stores online and offline."/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#212121"
+    android:paddingTop="7dp"
+    android:text="6. Exclusive access to Arsenal Puma events (eg. Launch of 2015-16 Home kit in Mumbai."/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#212121"
+    android:paddingTop="7dp"
+    android:text="7. Discount on Arsenal Merchandise(there is a lot of stuff coming from sportwalk ,our merchandise sponsor)."/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#212121"
+    android:paddingTop="7dp"
+    android:text="8. Access to free merchandise from arsenal Fc (eg FA cup Flags ,posters etc)."/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#212121"
+    android:paddingTop="7dp"
+    android:text="9. Free participation in online and offline football competitions."/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#212121"
+    android:paddingTop="7dp"
+    android:text="10. Most importantly opputunity to be a part of ADSC family."/>
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

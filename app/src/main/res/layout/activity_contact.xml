@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/contacts"
+    tools:context="com.example.dell.arsenaldelhi.About_us">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"></include>
+    <View
+        android:id="@+id/verticalSeperatorHours"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="10dp"
+        android:background="#D50000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#212121"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Postal Address"
+        android:id="@+id/textView6" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textColor="#212121"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="S 2-3 and F-15, Lower Ground Floor, Epicuria Mall, Nehru Place, New Delhi, Delhi 110019"
+        android:id="@+id/textView7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textColor="#212121"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Phone:011 2623 7777"
+        android:id="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Contacts"
+        android:id="@+id/textView9" />
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:paddingTop="10dp"
+     android:weightSum="2"
+     android:orientation="horizontal">
+<LinearLayout
+    android:layout_width="0dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#212121"
+        android:text="Shalin Ahuja"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chairman"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="shalin@arsenaldelhi.com"
+        android:textColor="#212121"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#212121"
+        android:text="Twitter-@ShalinAhuja"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#212121"
+        android:text="Ph-9810077437"/>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nishant Singhal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#212121"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Club Secretary"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#212121"
+        android:text="nishant@arsenaldelhi.com"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#212121"
+        android:text="Ph-9958447720"/>
+
+
+</LinearLayout>
+
+
+ </LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:textSize="20dp"
+    android:textColor="#212121"
+    android:text="For directions click on the link below"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Directions"
+        android:textColor="#1976D2"
+        android:id="@+id/direction" />
+
+</LinearLayout>

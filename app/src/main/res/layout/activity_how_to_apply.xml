@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.arsenaldelhi.How_to_apply">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"></include>
+    <View
+        android:id="@+id/verticalSeperatorHours"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="10dp"
+        android:background="#D50000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:textColor="#212121"
+        android:text="For full membership fill up the form given below in the link. "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textSize="15dp"
+        android:id="@+id/text2"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:text="@string/txtCredits"/>
+</LinearLayout>

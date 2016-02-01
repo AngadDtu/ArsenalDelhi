@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#212121"
+
+    tools:context="com.example.dell.materialdesign.NavigationDrawerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/layout"
+        android:layout_height="wrap_content"
+        android:background="#FFD600">
+        <ImageView
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_width="280dp"
+            android:layout_height="140dp"
+            android:id="@+id/img"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/arsenal"/>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/dividercustom" android:dividerHeight="1dp"
+        android:id="@+id/recycler">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
+

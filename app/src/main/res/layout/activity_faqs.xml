@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.arsenaldelhi.FAQS">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"></include>
+    <View
+        android:id="@+id/verticalSeperatorHours"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="10dp"
+        android:background="#D50000"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:text="Q1: Who can join Arsenal Delhi Supporters Club (ADSC)?
+        A: Any individual interested in supporting Arsenal Football Club, UK, and furthering the objectives of Arsenal Bangalore Supporters Club./>"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Q2: How do I join?
+A: Fill in the online registration form  ( it opens up a partnered vendor site ,app and fb page so that we can get the membership done online."></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Q3: What does it cost?
+A: We are including 700 rs as first time registration fee for anyone who is applying for membership for the first time. The current membership fees are 2000(1500+500) for a full Membership and 1000(750+ 250)for Student Membership ( up-to 21 yrs and studying ) . Membership runs for one year, from 1 August to 31 July of the following year. The membership fees are the same throughout the year, i.e. there are no discounts for joining after the season has started."></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Q4: Do i pay first time registration fee every year ?
+A: No you don’t. The first time registration fee is only collected from you when you apply for membership for the first time ."></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Q5: What types of membership are there?
+A: There are three basic types of roles .
+1) Student member
+All members going for student membership which is ideally for those who are under 21 and are studying become Student members’ of the club. An student member can participate in meetings and club events, join discussions and provide feedback on club activities.
+2) Full member
+An Full member can participate in meetings and club events, vote at AGMs , stand for office to the executive committee, join discussions and influence the decision making process of club activities.
+3) Committee member
+These are also ordinary members and are responsible for running the club. The committee is formed each two years by an election at an AGM.
+"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Q7: What documents do I need to submit to join?
+A: “Arsenal Delhi Membership Form” . An ID proof for all members need to be mailed and for those going for Student membership will have to share their current Student ID to membership@arsenalbangalore.com.
+For those below 18 need to share a NOC letter from their parents and mail to membership @arsenalDelhi.com."></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Q8: When will I receive my Membership approval?
+A: All applicants are treated as “pre-approved” upon submission of application form.
+In the event of unsuccessful application the committee will notify the applicant. A full refund will be made."></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Q9: When can I collect my membership card and membership kit?
+A: Barring unforeseen circumstances new members will usually be notified within 4-6  weeks of closure of the membership drive that his/her membership card and membership kit will be ready for collection or shipped across to the Delhi Address/Permanent Address.
+"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Q10: When do I have to renew my membership?
+A: Membership runs from 1 August to 31 July each year. Memberships must be renewed before 30 September to be considered as continuous. Any renewals after 1 October will not be taken and renewals not made in consecutive years will be treated as new applications and will be subject to the sign-up fee in addition to the yearly fee upon signing up the next time."></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Q11: What should I do if I lose or damage my membership card?
+A: Members should report the loss of their card to ADSC by email to membership@arsenalDelhi.com. A replacement card will be issued at a fee of 100 Rs."></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Q12: What happens if I discontinue my membership? Do I get a refund?
+        A: No – there are no refunds."></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Q13: How can I become an Full member?
+A: Any person who chooses to opt for full membership will be by default be a Full Member. The member should submit the documents detailed in Q6 to a committee member"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="
+Q15: Who are the existing full time and committee members?
+A: Except ones who choose for student membership are all Full Members. The committee consists of Full members. The committee is responsible for general operating policies, procedures, guidelines, and other related matters affecting the ADSC as a whole."></TextView>
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

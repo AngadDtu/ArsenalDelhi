@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.arsenaldelhi.What_we_do">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"></include>
+    <View
+        android:id="@+id/verticalSeperatorHours"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="10dp"
+        android:background="#D50000"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:scaleType="fitXY"
+        android:paddingTop="0dp"
+        android:src="@drawable/screen"/>
+
+    <TextView android:text="We connect those with a passion for Arsenal, to grow the Arsenal family, to grow the love of the sport and love for the Arsenal in Delhi."
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="10dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:textColor="#212121"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="0dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:textColor="#212121"
+        android:text="We hold screenings on match days at The Chatter House, Epicuria Mall, Nehru Place Metro Station. Watch the FB page and notifications in app for pre-match gatherings, location info and updates"/>
+
+</LinearLayout>

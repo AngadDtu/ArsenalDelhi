@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/about_us"
+    android:background="#FFF"
+    android:orientation="vertical"
+    tools:context="com.example.dell.arsenaldelhi.About_us">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"></include>
+    <View
+        android:id="@+id/verticalSeperatorHours"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="10dp"
+        android:background="#D50000"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:src="@drawable/ad"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="10dp"
+        android:text="What makes an Arsenal fan special? He is one who never ever gives up on his team. All fans may say the same about their respective team but an Arsenal fan means it."/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="8dp"
+    android:paddingLeft="8dp"
+    android:text="Thousands of miles away from North London a few fans here in Delhi decided to come together under one  roof for one common reason-the love for Arsenal and thus Delhi Gunners was formed. 2 years and counting, the numbers which started with a few now has manifolded into thousands"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="10dp"
+        android:text="In the year 2013 the group got recognized by Arsenal . As being one of Arsenal’s recognized supporters group the group that was initially going by the name of Delhi Gunners got named as Arsenal Delhi Supporters Club (ADSC)."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:text="Arsenal Delhi today consists of members who come from length and breadth of the city to be a part of the group. Each and everyone in this group are bonded by the one fact that we all love Arsenal. The group has became one big family for each one has the same passion and commitment towards making this group the best supporters group in the world."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:text="Join us today fellow Gooners for we are proud of who we are and who we support.
+“Victory through Harmony” says Arsenal, “Arsenal till i die” say Arsenal Delhi."/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:id="@+id/about_list"></ListView>
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>
