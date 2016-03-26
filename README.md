@@ -33,6 +33,6 @@ Parse.com
 #Apis:
 Football-org.com
 
-#How to run the App?
+#Steps to get Application up and running:
 
 First download the source source code ,build gradle in any android sdk(studio/eclipse) and then Run the code in your device
