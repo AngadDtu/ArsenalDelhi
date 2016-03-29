@@ -21,15 +21,16 @@ Its an app used to connect Delhi Gooners by updating them with club's latest eve
 
 9.Screening Pics
 
-![e](https://cloud.githubusercontent.com/assets/16436289/14109578/46f057f4-f5e0-11e5-8c45-64cb83f46bba.png=250x)
-![c](https://cloud.githubusercontent.com/assets/16436289/14109595/5f58f47c-f5e0-11e5-9984-689fe6ba1d93.png=250x)
-![i](https://cloud.githubusercontent.com/assets/16436289/14109611/71bc26de-f5e0-11e5-9cbd-cc60da6a7e3d.png=250x)
-![f](https://cloud.githubusercontent.com/assets/16436289/14109622/7f487096-f5e0-11e5-810b-3b2e2ac19636.png=250x)
-![d](https://cloud.githubusercontent.com/assets/16436289/14109633/8f6de0c8-f5e0-11e5-9719-dd954d319ade.png=250x)
-![a](https://cloud.githubusercontent.com/assets/16436289/14109641/a16aa4a0-f5e0-11e5-8b15-5c4172fade01.png=250x)
-![b](https://cloud.githubusercontent.com/assets/16436289/14109649/abc111b4-f5e0-11e5-8d98-9c5465031bdf.png=250x)
-![h](https://cloud.githubusercontent.com/assets/16436289/14109659/bcb7cef4-f5e0-11e5-91d1-e1e39e8ffd8d.png=250x)
-![g](https://cloud.githubusercontent.com/assets/16436289/14109671/cb3ba2f2-f5e0-11e5-84cc-0b39bb475b10.png=250x)
+![i](https://cloud.githubusercontent.com/assets/16436289/14110745/75251722-f5e5-11e5-8b79-ef2d7071a6af.png)
+![g](https://cloud.githubusercontent.com/assets/16436289/14110754/7e047f54-f5e5-11e5-9f48-04383e99ec1e.png)
+![h](https://cloud.githubusercontent.com/assets/16436289/14110758/828872ec-f5e5-11e5-8b2c-4f72bf3de7d3.png)
+![f](https://cloud.githubusercontent.com/assets/16436289/14110764/8697752c-f5e5-11e5-919b-41f9515abb1f.png)
+![e](https://cloud.githubusercontent.com/assets/16436289/14110769/8b9c1442-f5e5-11e5-98e8-aa4d94b5c1c2.png)
+![d](https://cloud.githubusercontent.com/assets/16436289/14110774/906d44be-f5e5-11e5-8589-a029d396d2f8.png)
+![c](https://cloud.githubusercontent.com/assets/16436289/14110776/958727e4-f5e5-11e5-8297-7c938862385c.png)
+![b](https://cloud.githubusercontent.com/assets/16436289/14110783/9ae1886a-f5e5-11e5-9599-bff4882d2c4a.png)
+![a](https://cloud.githubusercontent.com/assets/16436289/14110793/a43e6fb8-f5e5-11e5-942c-8ee1e8fbc795.png)
+
 
 
 #Language:
@@ -44,6 +45,6 @@ Parse.com
 #Apis:
 Football-org.com
 
-#Steps to get Application up and running:
+#How to make it run:
 
 First download the source source code ,build gradle in any android sdk(studio/eclipse) and then Run the code in your device
